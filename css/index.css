@@ -14,65 +14,63 @@ body {
 }
 
 .landing-banner {
+    display: flex;
     height: 90vh;
     width: 100vw;
     background: linear-gradient(90deg, #fece00 38.05%, #dfc855c9 60%, #57575737 105%);
+    justify-content: space-between;
 }
 
 .logo-marcelo {
-    position: absolute;
-    height: 200px;
     width: auto;
-    margin-left: -1.5rem;
-    margin-top: -0.5rem;
+    height: 15rem;
+    margin-bottom: 2rem;
+    margin-left: -2rem;
+
 }
 
 .marcelo-png {
-    position: absolute;
-    height: 90vh;
-    width: auto;
-    margin-left: 62.5rem;
+    max-width: 70%;
+    margin-left: 6rem;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    width: 100vw; 
+}
+
+h1, h3 {
+    text-align: center; 
+    
 }
 
 h1 {
-    position: absolute;
+    margin-bottom: 20px;
+    font-size: 4rem;
     font-family: 'Lexend', sans-serif;
-    font-size: 7rem;
-    word-spacing: 100vw;
-    line-height: 6.5rem;
-    text-align: center;
-    transform: translate(-11rem, 2rem);
-    color: #1d1d1d;
+    width: 10em;
+    white-space: pre-wrap;
+                                                
+}
+h3{
+    font-size: 2.5rem ;
 }
 
-h2 {
-    position: absolute;
-    font-family: 'Kapakana', sans-serif;
-    font-size: 5rem;
-    font-weight: 400;
-    white-space: nowrap;
-    transform: translate(-7.5rem, 18rem) rotate(-90deg);
-    color: #1d1d1d;
-}
-
-h3 {
-    position: absolute;
-    font-family: 'Nunito', sans-serif;
-    transform: translate(15rem, 25rem);
-    color: #1d1d1db7;
-    font-size: 3rem;
-}
 
 .saiba-mais-btn {
-    height: 4.25rem;
+    margin-top: 5rem;
     width: 10rem;
+    height: 4.25rem;
     border-radius: 0.75rem;
     font-family: 'Lexend', sans-serif;
     font-weight: 600;
     font-size: 1.25rem;
     background-color: #3e92ca;
     border: 1px black solid;
-    transform: translate(31rem, 35rem);
     transition: background-color 0.15s ease-in-out;
 }
 
@@ -141,8 +139,8 @@ h3 {
     gap: 30px;
 }
 
-.title{
-    transform: translate(0,0);
+.title {
+    transform: translate(0, 0);
 }
 
 .benef-banner {
@@ -183,4 +181,8 @@ h3 {
 .benefit-card p {
     font-size: 14px;
     color: #666;
+}
+
+a{
+    text-decoration: none;
 }
