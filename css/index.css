@@ -186,3 +186,44 @@ h3{
 a{
     text-decoration: none;
 }
+
+.ebook-banner {
+    padding: 2.25rem;
+    height: fit-content;
+    width: 100vw;
+    background: radial-gradient(circle, #656565d9 0%, #1f1f1fd9 25%, #1d1d1d 100%);
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-text{
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.75rem;
+}
+
+.buy-btn{
+    width: 10rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 800;
+    font-size: 1.25rem;
+    background-color: #fece00;
+    border: 1px black solid;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.ebook-thumb{
+    height: auto;
+    width: 18rem;
+    border-radius: 5px;
+    transform: rotate(1.5deg);
+}
+
+.buy-btn:hover {
+    background-color: #ffe368;
+}
